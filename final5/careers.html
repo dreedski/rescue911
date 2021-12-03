@@ -1,0 +1,176 @@
+<!doctype html>
+<!-- Drew Reed 11/16/2021 -->
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Rescue 911 is here for all of your emergency needs.">
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<!-- My Style Sheet -->
+	<link rel="stylesheet" href="css/styles.css">
+
+    <title>Rescue 911</title>
+	    <script type="text/javascript">
+           function showMessage() {
+                alert("Thank you for your interest. A recruiter will contact you within the next 48 hours.");
+            }
+        </script>
+  </head>
+ <body>
+
+	<!-- Bootstrap Navigation bar -->
+	<nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-primary">
+	
+		<a class="navbar-brand" href="index.html">Rescue 911</a>
+		
+		<!-- Hamburger menu icon -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- Navbar links -->
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="locations.html">Locations</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="whyus.html">Why Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="careers.html">Careers</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contactus.html">Contact Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="faq.html">FAQ</a>
+				</li>
+			</ul>
+		</div>
+	
+	</nav>
+	
+	<!-- Head and Hero Image -->
+       <header class="jumbotron jumbotron-fluid text-center mt-5 bg-dark">
+          <div class="container">
+				<img src="images/emsLogo.png" alt="EMS logo" class="float-left mr-3 img-fluid" height="150" width="150">
+				<img src="images/emsLogo.png" alt="EMS logo" class="float-right mr-3 img-fluid" height="150" width="150">
+				<h1 id="local" class="display-1">Careers</h1>
+				<p class="lead">Interested in working for Rescue 911? Fill out the form below for more information</p>
+          </div>
+        </header>
+
+    <!-- Main Content Area -->
+    <main class="container mt-5">
+		
+        <div id="form">
+
+            <h2 class="text-center">Complete the form below to get started on your new career</h2> 
+
+            <form class="form-grid p-2 mt-3 bg-primary" action="https://webdevbasics.net/scripts//pacific/php"><!-- Start Form -->
+
+                <fieldset class="mb-2 form-group">
+                    <legend>Applicant Information</legend>
+                    <label for="fName">First Name:</label>
+                    <input type="text" name="fName" id="fName" class="form-control" required>
+
+                    <label for="lName">Last Name:</label>
+                    <input type="text" name="lName" id="lName" class="form-control" required> 
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" class="form-control" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" class="form-control" required>
+                </fieldset>
+				<script src="scripts/focus-blur.js"></script>		
+
+
+                <fieldset class="mb-2 ml-2 form-group">
+                    <legend>Additional Information</legend>
+                    <p>What type of position are you interested in:</p>
+
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="interest" id="paramedic" value="Paramedic" class="form-check-input">
+                        <label for="paramedic" class="form-check-label">Paramedic</label>
+                    </div>
+                       
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="interest" id="emt" value="EMT" class="form-check-input">
+                        <label for="emt" class="form-check-label">EMT</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="interest" id="dispatch" value="Dispatch" class="form-check-input">
+                        <label for="dispatch" class="form-check-label">Dispatch</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="interest" id="management" value="Management" class="form-check-input">
+                        <label for="management" class="form-check-label">Management</label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="mb-2 form-group">
+                        <legend>Referral Source</legend>
+                        <label for="reference">How did you find us?</label>
+                        <select name="reference" id="reference" class="form-control">
+                            <option value="indeed">Indeed</option>
+                            <option value="friend">Friend</option>
+                            <option value="google">Google</option>
+                            <option value="social">Social Media</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                        <label for="questions">Questions?</label>
+                        <textarea id="questions" name="questions" rows="5" cols="35" class="form-control"></textarea>
+                </fieldset>
+
+                <input type="submit" id="submit" value="Submit" class="btn btn-outline-primary btn-lg bg-dark text-white mx-auto d-block" onClick="showMessage()">
+				
+				<input type="reset" id="reset" value="Reset" class="btn btn-outline-primary btn-lg bg-dark text-white mx-auto d-block">
+
+
+            </form>
+
+        </div>
+	</main>
+	
+	<!-- Footer -->
+	<footer class="jumbotron-fluid text-center bg-primary p-5">
+	
+		<div class="container text-white">
+				<p>&copy; Copyright 2021. All Rights Reserved.</p>
+				<p><a href="mailto:rescue911@ems.net" class="text-white">rescue911@ems.net</a></p>
+				<a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook logo" width="45" height="45"></a>
+				<a href="https://www.twitter.com"><img src="images/twitter.png" alt="Twitter logo" width="45" height="45"></a>
+				<a href="https://www.youtube.com"><img src="images/youtube.png" alt="YouTube logo" width="65" height="45"></a>
+		</div>
+		
+	</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="scripts/script.js"></script>
+  </body>
+</html>
